@@ -47,3 +47,15 @@ main  main.go
 # ./main
 Hi there
 ```
+### Go Packages
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797248#overview)) <br/>
+
+### Import Statements
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797250#overview)) <br/>
+For public and supported packages from you, check [this page](https://golang.org/pkg/).
+
+### File Organization
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797252#overview)) <br/>
+`func` is a keyword to define a function:<br/>
+![git command](images/S2_2.PNG)
+<br/>
