@@ -76,3 +76,17 @@ For public and supported packages from you, check [this page](https://golang.org
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797268#overview)) <br/>
 ![var declaration](images/S3_2.PNG)
 <br/>
+From Go, we have below basic data types ([tour golang - basic types](https://tour.golang.org/basics/11)): <br/>
+![var declaration](images/S3_3.PNG)
+<br/>
+
+### Functions and Return types
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797272#overview)) <br/>
+![var declaration](images/S3_4.PNG)
+<br/>
+One function declaration example:
+```go
+func newCard() string {
+    return "Five of Diamonds"
+}
+```
