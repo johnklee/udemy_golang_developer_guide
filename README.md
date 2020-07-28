@@ -59,3 +59,20 @@ For public and supported packages from you, check [this page](https://golang.org
 `func` is a keyword to define a function:<br/>
 ![git command](images/S2_2.PNG)
 <br/>
+
+## Section3 - Deeper into Go
+
+
+### Project Overview
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797262#overview)) <br/>
+![project overview](images/S3_1.PNG)
+<br/>
+
+
+### New Project Folder
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797266#overview)) <br/>
+
+### Variable Declarations
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797268#overview)) <br/>
+![var declaration](images/S3_2.PNG)
+<br/>
