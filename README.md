@@ -109,3 +109,6 @@ For OO approach, it might look like: <br/>
 For Go approach, one possible solution:
 ![range syntax](images/S3_8.PNG)
 <br/>
+So our project file structure may look like:
+![range syntax](images/S3_9.PNG)
+<br/>
