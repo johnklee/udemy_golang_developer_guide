@@ -95,3 +95,17 @@ func newCard() string {
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797274#overview)) <br/>
 ![var declaration](images/S3_5.PNG)
 <br/>
+
+The syntax of range ([tutorialspoint - Go - Range](https://www.tutorialspoint.com/go/go_range.htm)):
+![range syntax](images/S3_6.PNG)
+<br/>
+
+### OO Approach vs Go Approach
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797276#overview)) <br/>
+For OO approach, it might look like: <br/>
+![range syntax](images/S3_7.PNG)
+<br/>
+
+For Go approach, one possible solution:
+![range syntax](images/S3_8.PNG)
+<br/>
