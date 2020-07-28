@@ -96,7 +96,7 @@ func newCard() string {
 ![var declaration](images/S3_5.PNG)
 <br/>
 
-The syntax of range ([tutorialspoint - Go - Range](https://www.tutorialspoint.com/go/go_range.htm)):
+The syntax of range ([tutorialspoint - Go - Range](https://www.tutorialspoint.com/go/go_range.htm)): <br/>
 ![range syntax](images/S3_6.PNG)
 <br/>
 
@@ -106,9 +106,18 @@ For OO approach, it might look like: <br/>
 ![range syntax](images/S3_7.PNG)
 <br/>
 
-For Go approach, one possible solution:
+For Go approach, one possible solution: <br/>
 ![range syntax](images/S3_8.PNG)
 <br/>
-So our project file structure may look like:
+So our project file structure may look like: <br/>
 ![range syntax](images/S3_9.PNG)
+<br/>
+
+### Custom Type Declarations
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797278#overview)) <br/>
+
+
+### Receiver Functions
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797280#overview)) <br/>
+![range syntax](images/S3_10.PNG)
 <br/>
