@@ -33,6 +33,17 @@ To run `main.go` by command below:
 # go run main.go
 Hi there
 ```
+
 Basically, the Go support commands as below ([more](https://golang.org/cmd/)):
+</br>
 ![git command](images/S2_1.PNG)
 <br/>
+So we can build tne file `main.go` and produce executable file `main` as below:
+```console
+# go build main.go
+# ls
+main  main.go
+
+# ./main
+Hi there
+```
