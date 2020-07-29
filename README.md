@@ -121,3 +121,21 @@ So our project file structure may look like: <br/>
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797280#overview)) <br/>
 ![range syntax](images/S3_10.PNG)
 <br/>
+
+### Creating a New Deck
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797282#overview)) <br/>
+![range syntax](images/S3_11.PNG)
+<br/>
+
+### Slice Range Syntax
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797284#overview)) <br/>
+![range syntax](images/S3_12.PNG)
+<br/>
+You can refer to [here](https://www.tutorialspoint.com/go/go_slice.htm) for more slice usage in tutorialspoint.<br/>
+<br/>
+### Multiple Return Values
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797286#overview)) <br/>
+![range syntax](images/S3_13.PNG)
+<br/>
+### Byte Slices
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797288#overview)) <br/>
