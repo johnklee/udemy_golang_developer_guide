@@ -139,3 +139,26 @@ You can refer to [here](https://www.tutorialspoint.com/go/go_slice.htm) for more
 <br/>
 ### Byte Slices
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797288#overview)) <br/>
+You can refer to [this page](https://golang.org/pkg/) for all public golang packages. Here we will
+use function(s) from <b>[ioutils](https://golang.org/pkg/io/ioutil/)</b> to implement functions used
+in our package. To use function [WriteFile](https://golang.org/pkg/io/ioutil/#WriteFile), we need to understand byte slice:<br/>
+![range syntax](images/S3_14.PNG)
+<br/>
+### Deck to String
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797290#overview)) <br/>
+We have to do type transformation here: <br/>
+![range syntax](images/S3_15.PNG)
+<br/>
+```go
+package main
+
+import "fmt"
+
+func main() {
+	greeting := "Hello"
+	fmt.Println([]byte(greeting)) // output: [72 101 108 108 111]
+}
+```
+### Joining a slice of string
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797292#overview)) <br/>
+
