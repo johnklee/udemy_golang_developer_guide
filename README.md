@@ -161,4 +161,41 @@ func main() {
 ```
 ### Joining a slice of string
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797292#overview)) <br/>
+Here we use [<b>strings</b>.Join](https://golang.org/pkg/strings/#Join) to concatenate a slice of string. <br/>
 
+
+### Save Data Into Hard Drive
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797294#overview)) <br/>
+Now we can turn deck into string. It is time to use [<b>ioutil</b>.WriteFile](https://golang.org/pkg/io/ioutil/#WriteFile) to implement saveToFile. <br/>
+
+### Read From The Hard Drive
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797298#overview))  <br/>
+Here we will use [<b>iotuil</b>.ReadFile](https://golang.org/pkg/io/ioutil/#ReadFile) to read our deck from file: <br/>
+![range syntax](images/S3_16.PNG)
+<br/>
+
+### Error Handling
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797300#overview)) <br/>
+You can refer to ["Error handling and Go"](https://blog.golang.org/error-handling-and-go) on how to handle error in golang. <br/>
+
+### Shuffling a Deck
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797302#overview)) <br/>
+![range syntax](images/S3_17.PNG)
+<br/>
+Here we will leverage [<b>math</b>.rand](https://golang.org/pkg/math/rand/) package to implement our shuffling algorithm. <br/>
+
+### Random Number Generation
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797304#overview)) <br/>
+We will use [Rand.Seed](https://golang.org/pkg/math/rand/#Seed) and [<b>time</b>.Now](https://golang.org/pkg/time/#Now) to make sure that each random number will be random in reality: <br/>
+```go
+func (d deck) shuffle() {
+	rnd := rand.New(rand.NewSource(time.Now().UnixNano()))
+	for i := range d {
+		newPosition := rnd.Intn(len(d) - 1)
+		d[i], d[newPosition] = d[newPosition], d[i]
+	}
+}
+```
+
+### Testing With Go
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797306#overview))
