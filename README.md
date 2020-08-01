@@ -215,3 +215,42 @@ Go testing is not RSpec, mocha, jasmine, selenium. To make a test, create a new 
 
 ### Project Review
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797314#overview)) <br/>
+
+## Section4 - Organizing Data With Structs
+
+### Structs in Go
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797332#questions)) <br/>
+Go’s structs are typed collections of fields. They’re useful for grouping data together to form records. ([Go by Example: Structs](https://gobyexample.com/structs)) <br/>
+![struct](images/S4_1.PNG)
+<br/>
+
+### Defining Struct
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797334#questions)) <br/>
+Here we are going to use struct data structure to represent a person: <br/>
+![person struct](images/S4_2.PNG)
+<br/>
+
+### Declaring Struct
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797336#questions)) <br/>
+An example of declration of struct `person`:
+```go
+package main
+
+import "fmt"
+
+type person struct {
+	firstName string
+	lastName  string
+}
+
+func main() {
+	alex := person{
+		firstName: "Alex",
+		lastName:  "Anderson",
+	}
+
+	fmt.Println(alex)  // output: {Alex Anderson}
+}
+```
+### Updating Struct values
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797338#questions)) <br/>
