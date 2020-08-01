@@ -68,9 +68,9 @@ For public and supported packages from you, check [this page](https://golang.org
 ![project overview](images/S3_1.PNG)
 <br/>
 
-
 ### New Project Folder
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797266#overview)) <br/>
+We are going to create a project `deck` here to learn Golang here. <br/>
 
 ### Variable Declarations
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797268#overview)) <br/>
@@ -198,4 +198,20 @@ func (d deck) shuffle() {
 ```
 
 ### Testing With Go
-([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797306#overview))
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797306#overview)) <br/>
+Go testing is not RSpec, mocha, jasmine, selenium. To make a test, create a new file ending in _test.go. To run all tests in a package, run the command `go test`. <br/>
+
+### Writing Useful Tests
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797306#overview)) <br/>
+![range syntax](images/S3_18.PNG)
+<br/>
+
+### Asserting Elements in a Slice
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797310#overview)) <br/>
+
+
+### Testing File IO
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797312#overview)) <br/>
+
+### Project Review
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797314#overview)) <br/>
