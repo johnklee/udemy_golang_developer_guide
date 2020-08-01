@@ -254,3 +254,47 @@ func main() {
 ```
 ### Updating Struct values
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797338#questions)) <br/>
+You can print out every field of a struct this way:
+```go
+fmt.Printf("%+v\n", alex)
+```
+### Embedded Structs
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797340#overview)) <br/>
+We can embedded struct into another struct:<br/>
+![person struct](images/S4_3.PNG)
+<br/>
+Sample code: <br/>
+```go
+package main
+
+import "fmt"
+
+type contactInfo struct {
+	email   string
+	zipCode int
+}
+
+type person struct {
+	firstName string
+	lastName  string
+	age       int
+	contact   contactInfo
+}
+
+func main() {
+	alex := person{
+		firstName: "Alex",
+		lastName:  "Anderson",
+		contact: contactInfo{
+			email:   "abc@test.com",
+			zipCode: 123,
+		},
+		age: 20,
+	}
+
+	fmt.Printf("%+v\n", alex)
+}
+```
+
+### Struct with Receiver Functions
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797342#overview)) <br/>
