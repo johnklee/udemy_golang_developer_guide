@@ -298,3 +298,28 @@ func main() {
 
 ### Struct with Receiver Functions
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797342#overview)) <br/>
+
+### Pass By Value
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797344#overview)) <br/>
+Golang is a pass by value language. <br/>
+![person struct](images/S4_4.PNG)
+<br/>
+
+### Structs with Pointer
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797346#overview)) <br/>
+
+
+### Pointer Operations
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797348#overview)) <br/>
+![person struct](images/S4_5.PNG)
+<br/>
+![person struct](images/S4_6.PNG)
+<br/>
+
+### Pointer Shortcut
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797350#overview)) <br/>
+![person struct](images/S4_7.PNG)
+<br/>
+
+### Pointer Gotchas
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797352#overview)) <br/>
