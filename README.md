@@ -323,3 +323,17 @@ Golang is a pass by value language. <br/>
 
 ### Pointer Gotchas
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797352#overview)) <br/>
+
+### Referece vs Value Types
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797354#overview)) <br/>
+![person struct](images/S4_8.PNG)
+<br/>
+![person struct](images/S4_9.PNG)
+<br/>
+![person struct](images/S4_10.PNG)
+<br/>
+
+## Section5 - Maps
+
+### What's a Map?
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797360#overview)) <br/>
