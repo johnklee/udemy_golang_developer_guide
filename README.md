@@ -337,3 +337,36 @@ Golang is a pass by value language. <br/>
 
 ### What's a Map?
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797360#overview)) <br/>
+![person struct](images/S4_11.PNG)
+<br/>
+* [A Tour of Go - Maps](https://tour.golang.org/moretypes/19)
+* [Go by example: Maps](https://gobyexample.com/maps)
+* [The Go Blog - Go maps in action](https://blog.golang.org/maps)
+
+### Manipulating Maps
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797362#overview)) <br/>
+
+### Iterating over Maps
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797366#overview)) <br/>
+![person struct](images/S4_12.PNG)
+<br/>
+
+### Differences between struct and map
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797370#overview)) <br/>
+![person struct](images/S4_13.PNG)
+<br/>
+
+## Interfaces
+
+### Purpose of Interfaces
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797374#overview)) <br/>
+![person struct](images/S4_14.PNG)
+<br/>
+
+### Problmes Without Interfaces
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797376#overview)) <br/>
+
+## Supplement
+* [A Tour of Go](https://tour.golang.org/welcome/1)
+* [Tutorialspoint - Golang](https://www.tutorialspoint.com/go/index.htm)
+* [Openhome - 語言技術：Go 語言](https://openhome.cc/Gossip/Go/)
