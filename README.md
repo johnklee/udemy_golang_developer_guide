@@ -1,6 +1,14 @@
 ## Introduction
 Keep sample code and note from practice of udemy course https://www.udemy.com/course/go-the-complete-developers-guide/
 
+* **[Section1 - Getting Started](#s1)**
+* **[Section2 - A Simple Start ](#s2)**
+* **[Section3 - Deeper into Go](#s3)**
+* **[Section4 - Organizing Data With Structs](#s4)**
+* **[Section5 - Maps](#s5)**
+* **[Section6 - Interfaces](#s6)**
+
+<a id='s1'></a>
 ## Section1 - Getting Started
 
 ### Environment Setup
@@ -10,6 +18,7 @@ Keep sample code and note from practice of udemy course https://www.udemy.com/co
 go version go1.13.4 linux/amd64
 ```
 
+<a id='s2'></a>
 ## Section2 - A Simple Start 
 
 ### Boring OI'Hello World
@@ -60,6 +69,7 @@ For public and supported packages from you, check [this page](https://golang.org
 ![git command](images/S2_2.PNG)
 <br/>
 
+<a id='s3'></a>
 ## Section3 - Deeper into Go
 
 
@@ -216,6 +226,7 @@ Go testing is not RSpec, mocha, jasmine, selenium. To make a test, create a new 
 ### Project Review
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797314#overview)) <br/>
 
+<a id='s4'></a>
 ## Section4 - Organizing Data With Structs
 
 ### Structs in Go
@@ -333,6 +344,7 @@ Golang is a pass by value language. <br/>
 ![person struct](images/S4_10.PNG)
 <br/>
 
+<a id='s5'></a>
 ## Section5 - Maps
 
 ### What's a Map?
@@ -356,7 +368,8 @@ Golang is a pass by value language. <br/>
 ![person struct](images/S4_13.PNG)
 <br/>
 
-## Interfaces
+<a id='s6'></a>
+## Section6 - Interfaces
 * [Go by Example: Interfaces](https://gobyexample.com/interfaces)
 * [A Tour of Go - Interfaces](https://tour.golang.org/methods/9)
 * [Tutorialspoint - Interfaces](https://www.tutorialspoint.com/go/go_interfaces.htm)
@@ -379,16 +392,40 @@ Check [interfaces/main.go](src/interfaces/main.go) for the interface example of 
 
 ### Rules of Interfaces
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797380#overview)) <br/>
-![person struct](images/S4_16.PNG)
+![person struct](images/S4_17.PNG)
 <br/>
 
 ### Extra Interface Notes
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797384#overview)) <br/>
-![interface notes](images/S4_17.PNG)
+![interface notes](images/S4_18.PNG)
 <br/>
 
-## The HTTP Package
+### The HTTP Package
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797386#overview)) <br/>
+![interface notes](images/S4_19.PNG)
+<br/>
+Here we are going to use [golang package http](https://golang.org/pkg/net/http/) to do something so to learn more about interface. <br/>
+
+### Reading the Docs
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797388#overview)) <br/>
+![interface notes](images/S4_20.PNG)
+<br/>
+
+### More Interface Syntax
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797392#overview)) <br/>
+
+### Interface Review
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797394#overview)) <br/>
+
+### The Reader Interface
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797396#overview)) <br/>
+![interface notes](images/S4_21.PNG)
+<br/>
+![interface notes](images/S4_22.PNG)
+<br/>
+
+### More on the Reader Interface
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797398#overview)) <br/>
 
 ## Supplement
 * [A Tour of Go](https://tour.golang.org/welcome/1)
