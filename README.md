@@ -365,6 +365,18 @@ Golang is a pass by value language. <br/>
 
 ### Problmes Without Interfaces
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797376#overview)) <br/>
+![person struct](images/S4_15.PNG)
+<br/>
+
+### Interfaces in Practice
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797378#overview)) <br/>
+![person struct](images/S4_16.PNG)
+<br/>
+Check [interfaces/main.go](interfaces/main.go) for the interface example of this course. <br/>
+
+### Rules of Interfaces
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797380#overview)) <br/>
+
 
 ## Supplement
 * [A Tour of Go](https://tour.golang.org/welcome/1)
