@@ -357,6 +357,9 @@ Golang is a pass by value language. <br/>
 <br/>
 
 ## Interfaces
+* [Go by Example: Interfaces](https://gobyexample.com/interfaces)
+* [A Tour of Go - Interfaces](https://tour.golang.org/methods/9)
+* [Tutorialspoint - Interfaces](https://www.tutorialspoint.com/go/go_interfaces.htm)
 
 ### Purpose of Interfaces
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797374#overview)) <br/>
@@ -372,11 +375,20 @@ Golang is a pass by value language. <br/>
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797378#overview)) <br/>
 ![person struct](images/S4_16.PNG)
 <br/>
-Check [interfaces/main.go](interfaces/main.go) for the interface example of this course. <br/>
+Check [interfaces/main.go](src/interfaces/main.go) for the interface example of this course. <br/>
 
 ### Rules of Interfaces
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797380#overview)) <br/>
+![person struct](images/S4_16.PNG)
+<br/>
 
+### Extra Interface Notes
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797384#overview)) <br/>
+![interface notes](images/S4_17.PNG)
+<br/>
+
+## The HTTP Package
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797386#overview)) <br/>
 
 ## Supplement
 * [A Tour of Go](https://tour.golang.org/welcome/1)
