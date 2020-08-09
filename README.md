@@ -7,6 +7,7 @@ Keep sample code and note from practice of udemy course https://www.udemy.com/co
 * **[Section4 - Organizing Data With Structs](#s4)**
 * **[Section5 - Maps](#s5)**
 * **[Section6 - Interfaces](#s6)**
+* **[Section7 - Channels and Go routines](#s7)**
 
 <a id='s1'></a>
 ## Section1 - Getting Started
@@ -468,6 +469,16 @@ Here we are going to use [golang package http](https://golang.org/pkg/net/http/)
 ([link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/practice/9958/instructor-solution#overview)) <br/>
 ![interface notes](images/S4_30.PNG)
 <br/>
+
+<a id='s7'></a>
+## Section7 - Channels and Go routines
+* [Go by Example: Channels](https://gobyexample.com/channels)
+* [A Tour of Go - Channels](https://tour.golang.org/concurrency/2)
+* [Openhome.cc - Channel](https://openhome.cc/Gossip/Go/Channel.html)
+* [Youtube - Go Basic Channels Tutorial](https://www.youtube.com/watch?v=e4bu9g-bYtg)
+
+### Website status checker
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797418#overview)) <br/>
 
 
 ## Supplement
