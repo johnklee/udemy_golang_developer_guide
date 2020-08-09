@@ -426,6 +426,38 @@ Here we are going to use [golang package http](https://golang.org/pkg/net/http/)
 
 ### More on the Reader Interface
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797398#overview)) <br/>
+![interface notes](images/S4_23.PNG)
+<br/>
+
+### Working with Read Function
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797402#overview)) <br/>
+![interface notes](images/S4_24.PNG)
+<br/>
+
+
+### The Writer Interface
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797406#overview)) <br/>
+![interface notes](images/S4_25.PNG)
+<br/>
+![interface notes](images/S4_26.PNG)
+<br/>
+
+### The io.Copy function
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797408#overview)) <br/>
+* [io.Reader interface](https://golang.org/pkg/io/#Reader)
+* [io.Writer interface](https://golang.org/pkg/io/#Writer)
+* [io.Copy function](https://golang.org/pkg/io/#Copy)
+<br>
+![interface notes](images/S4_27.PNG)
+<br/>
+
+### The implementation of io.Copy
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797410#overview)) <br/>
+
+### A Custom Writer
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797412#overview)) <br/>
+![interface notes](images/S4_28.PNG)
+<br/>
 
 ## Supplement
 * [A Tour of Go](https://tour.golang.org/welcome/1)
