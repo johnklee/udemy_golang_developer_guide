@@ -459,6 +459,11 @@ Here we are going to use [golang package http](https://golang.org/pkg/net/http/)
 ![interface notes](images/S4_28.PNG)
 <br/>
 
+### Assignment of Interfaces lesson
+([link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/practice/9944/introduction#overview)) <br/>
+![interface notes](images/S4_28.PNG)
+<br/>
+
 ## Supplement
 * [A Tour of Go](https://tour.golang.org/welcome/1)
 * [Tutorialspoint - Golang](https://www.tutorialspoint.com/go/index.htm)
