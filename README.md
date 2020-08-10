@@ -479,7 +479,28 @@ Here we are going to use [golang package http](https://golang.org/pkg/net/http/)
 
 ### Website status checker
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797418#overview)) <br/>
+![interface notes](images/S4_31.PNG)
+<br/>
 
+### Print Site Status
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797420#overview)) <br/>
+
+### Serial Link Checking
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797422#overview)) <br/>
+![interface notes](images/S4_32.PNG)
+<br/>
+We can actually make those request in parallel: <br/>
+![interface notes](images/S4_33.PNG)
+<br/>
+
+### Go Routines
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797424#overview)) <br/>
+A goroutine is a lightweight thread managed by the Go runtime. <br/>
+![interface notes](images/S4_34.PNG)
+<br/>
+
+### Theory of Go routine
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797426#overview)) <br/>
 
 ## Supplement
 * [A Tour of Go](https://tour.golang.org/welcome/1)
