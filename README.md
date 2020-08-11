@@ -448,7 +448,8 @@ Here we are going to use [golang package http](https://golang.org/pkg/net/http/)
 * [io.Reader interface](https://golang.org/pkg/io/#Reader)
 * [io.Writer interface](https://golang.org/pkg/io/#Writer)
 * [io.Copy function](https://golang.org/pkg/io/#Copy)
-<br>
+<br/>
+
 ![interface notes](images/S4_27.PNG)
 <br/>
 
@@ -501,6 +502,36 @@ A goroutine is a lightweight thread managed by the Go runtime. <br/>
 
 ### Theory of Go routine
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797426#overview)) <br/>
+For one CPU case:<br/>
+![interface notes](images/S4_35.PNG)
+<br/>
+For multiple CPU case: <br/>
+![interface notes](images/S4_36.PNG)
+<br/>
+[Concurrency is not parallelism](https://blog.golang.org/waza-talk):
+* Concurrency: We can have multiple threads executing code. If one thread blocks, another one is picked up and worked on.
+* Parallelism: Multiple threads executed at the exact same time. Requiures multile CPUs.
+<br/>
+Becareful of the difference between Main Routine and Child go routine. Later lession will cover it: <br/>
+![interface notes](images/S4_37.PNG)
+<br/>
+
+### Channels
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797428#overview)) <br/>
+![interface notes](images/S4_38.PNG)
+<br/>
+We need to wait for the go routine(s) from Main routine. Here comes the channel<br/>
+![interface notes](images/S4_39.PNG)
+<br/>
+
+### Channel Implementation
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7809258#overview)) <br/>
+![interface notes](images/S4_40.PNG)
+<br/>
+
+
+### Blocking Channels
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7809260#overview)) <br/>
 
 ## Supplement
 * [A Tour of Go](https://tour.golang.org/welcome/1)
