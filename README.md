@@ -511,6 +511,7 @@ For multiple CPU case: <br/>
 [Concurrency is not parallelism](https://blog.golang.org/waza-talk):
 * Concurrency: We can have multiple threads executing code. If one thread blocks, another one is picked up and worked on.
 * Parallelism: Multiple threads executed at the exact same time. Requiures multile CPUs.
+
 <br/>
 Becareful of the difference between Main Routine and Child go routine. Later lession will cover it: <br/>
 ![interface notes](images/S4_37.PNG)
@@ -529,9 +530,37 @@ We need to wait for the go routine(s) from Main routine. Here comes the channel<
 ![interface notes](images/S4_40.PNG)
 <br/>
 
-
 ### Blocking Channels
 ([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7809260#overview)) <br/>
+
+### Receving Messages
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7809262#overview)) <br/>
+
+### Repeating Routines
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7809264#overview)) <br/>
+
+### Alternative loop syntax
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7809266#overview)) <br/>
+
+### Sleeping a routine
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7809268#overview)) <br/>
+
+### Function literals
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7809272#overview)) <br/>
+Similar to anonymous function: <br/>
+![interface notes](images/S4_41.PNG)
+<br/>
+```go
+	for l := range c {
+		go func(link string) {
+			time.Sleep(5 * time.Second)
+			checkLink(link, c)
+		}(l)
+	}
+```
+
+### Channels Gotcha
+([course link](https://www.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7824514#overview)) <br/>
 
 ## Supplement
 * [A Tour of Go](https://tour.golang.org/welcome/1)
